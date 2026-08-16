@@ -1,0 +1,1 @@
+const selected=TOPICS.filter(t=>favourites.includes(t.id));$('#favouritesGrid').innerHTML=selected.length?selected.map(card).join(''):'<p class="empty-state">Belum ada topik disimpan. Buka topik daripada perpustakaan dan tekan ☆ untuk menyimpannya.</p>';bindFavourites($('#favouritesGrid'));
